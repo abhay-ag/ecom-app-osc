@@ -11,6 +11,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <link rel="icon" href="/logo-footer.png" />
+        <title>Wasatch Ski Company</title>
       </Head>
       <StateProvider reducer={reducer} initialState={initialState}>
         <Toggler />
