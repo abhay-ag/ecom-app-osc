@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo-footer.png" />
       </Head>
       <StateProvider reducer={reducer} initialState={initialState}>
         <Toggler />
