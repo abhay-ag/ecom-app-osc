@@ -1,11 +1,11 @@
-import Home from "../components/Home"
+import Home from "../components/Home";
 
 function index() {
   return (
     <div>
       <Home />
     </div>
-  )
+  );
 }
 
-export default index
+export default index;

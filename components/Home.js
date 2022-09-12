@@ -19,22 +19,17 @@ function Home() {
         >
           Wasatch Ski Company
         </font>
-        <font className={`mt-4 w-[58vw] text-center font-normal ${
+        <font
+          className={`mt-4 w-[58vw] text-center font-normal ${
             mode === "light" ? "text-black" : "text-white"
-          }`}>
+          }`}
+        >
           A pair of skis are the ultimate transportation to freedom. Skiing is a
           dance, and the mountain always leads. You can&apos;t buy happiness,
           but you can buy a ski pass.
         </font>
       </div>
-      <button
-        className="bg-indigo-500 rounded px-8 py-2 text-white my-6 text-lg"
-        onClick={() => {
-          dispatch({
-            type: "TOGGLE_MODE",
-          });
-        }}
-      >
+      <button className="bg-indigo-500 rounded px-8 py-2 text-white my-6 text-lg">
         Shop Now
       </button>
     </div>
