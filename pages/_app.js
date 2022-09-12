@@ -4,15 +4,21 @@ import "../styles/globals.css";
 import { StateProvider } from "../StateProvider";
 import reducer, { initialState } from "../reducer";
 import Toggler from "../components/Toggler";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <StateProvider reducer={reducer} initialState={initialState}>
-      <Toggler />
-      <Navbar />
-      <Component {...pageProps} />
-      <Footer />
-    </StateProvider>
+    <>
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <StateProvider reducer={reducer} initialState={initialState}>
+        <Toggler />
+        <Navbar />
+        <Component {...pageProps} />
+        <Footer />
+      </StateProvider>
+    </>
   );
 }
 
