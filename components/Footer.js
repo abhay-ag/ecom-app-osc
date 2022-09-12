@@ -6,13 +6,13 @@ function Footer() {
   const [{ mode }, dispatch] = useStateValue();
   return (
     <div
-      className={`container px-5 m-auto flex flex-row items-center mt-16 ${
+      className={`container px-5 m-auto flex flex-col space-y-3 md:space-y-0 md:flex-row items-center mt-16 ${
         mode === "light" ? "bg-white" : "bg-[#191C20]"
       }`}
     >
       <img src="/logo-footer.png" alt="" />
       <div
-        className={`border-l-2 flex flex-row px-4 mx-4 py-1 ${
+        className={`md:border-l-2 flex flex-row px-4 mx-4 py-1 ${
           mode === "light" ? "text-slate-500" : "text-white"
         } text-sm`}
       >
