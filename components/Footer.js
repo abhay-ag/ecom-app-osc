@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div
       className={`container px-5 m-auto flex flex-row items-center mt-16 ${
-        mode === "light" ? "bg-white" : "bg-black"
+        mode === "light" ? "bg-white" : "bg-[#191C20]"
       }`}
     >
       <img src="/logo-footer.png" alt="" />

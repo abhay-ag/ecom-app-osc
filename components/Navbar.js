@@ -8,12 +8,12 @@ function Navbar({ cartQty }) {
     <>
       <style jsx global>{`
         body {
-          background: ${mode === "dark" ? "black" : "white"};
+          background: ${mode === "dark" ? "#191C20" : "white"};
         }
       `}</style>
       <div
         className={`container m-auto ${
-          mode === "light" ? "bg-white text-black" : "bg-black text-white"
+          mode === "light" ? "bg-white text-black" : "bg-[#191C20] text-white"
         } py-6 px-5 flex flex-row items-center`}
       >
         <Link href="/">
