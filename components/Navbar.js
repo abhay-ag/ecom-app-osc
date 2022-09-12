@@ -23,7 +23,7 @@ function Navbar({cartQty}) {
             <a>Contact Us</a>
           </Link>
         </div>
-        <div className="relative">
+        <button className="relative">
           <Link href="/cart">
             <a>
               <AiOutlineShoppingCart className="text-3xl"/>
@@ -32,7 +32,7 @@ function Navbar({cartQty}) {
           <div className="border-2 box-border px-1.5 py-0.5 font-semibold text-xs items-center justify-center border-white text-white bg-indigo-500 rounded-full absolute -top-2 -right-3">
             {cartQty ? cartQty : 0}
           </div>
-        </div>
+        </button>
       </div>
     </div>
   );
