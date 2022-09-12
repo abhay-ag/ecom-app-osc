@@ -8,7 +8,7 @@ function Home() {
       />
       <div className="flex flex-col items-center">
         <font className="text-indigo-500 text-xs font-medium tracking-widest">
-          Let's make winter adventures!
+          Let&apos;s make winter adventures!
         </font>
         <font className="text-3xl py-1 font-medium">Wasatch Ski Company</font>
         <font className="mt-4 w-[58vw] text-center font-normal">
