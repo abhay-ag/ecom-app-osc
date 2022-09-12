@@ -1,6 +1,6 @@
 function index() {
   return (
-    <div className="text-5xl font-bold">Hello World</div>
+    <div className="text-5xl font-bold"></div>
   )
 }
 
