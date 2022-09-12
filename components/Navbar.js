@@ -1,11 +1,12 @@
+import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 function Navbar({cartQty}) {
   return (
-    <div className="container m-auto bg-white sticky top-0 py-6 px-5 flex flex-row items-center">
+    <div className="container m-auto bg-white py-6 px-5 flex flex-row items-center">
       <Link href="/">
         <a>
-          <img src="/logo.png" alt="Wasatch Ski Company" />
+          <Image src="/logo.png" alt="Wasatch Ski Company" />
         </a>
       </Link>
       <div className="flex-1 flex flex-row justify-end space-x-7 items-center">
