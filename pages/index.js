@@ -1,6 +1,10 @@
+import Home from "../components/Home"
+
 function index() {
   return (
-    <div className="text-5xl font-bold"></div>
+    <div>
+      <Home />
+    </div>
   )
 }
 
