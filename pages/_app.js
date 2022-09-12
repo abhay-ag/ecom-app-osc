@@ -1,8 +1,8 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import "../styles/globals.css";
-import { StateProvider } from "./StateProvider";
-import reducer, { initialState } from "./reducer";
+import { StateProvider } from "../StateProvider";
+import reducer, { initialState } from "../reducer";
 
 function MyApp({ Component, pageProps }) {
   return (

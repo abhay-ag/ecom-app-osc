@@ -1,4 +1,6 @@
+import { useStateValue } from "../StateProvider";
 function Home() {
+  const [{ mode }, dispatch] = useStateValue();
   return (
     <div className="container m-auto flex flex-col items-center px-4">
       <img
