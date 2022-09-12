@@ -19,7 +19,11 @@ function Home() {
           but you can buy a ski pass.
         </font>
       </div>
-      <button className="bg-indigo-500 rounded px-8 py-2 text-white my-6 text-lg">
+      <button className="bg-indigo-500 rounded px-8 py-2 text-white my-6 text-lg" onClick={() => {
+        dispatch({
+          type: 'TOGGLE_MODE',
+        });
+      }}>
         Shop Now
       </button>
     </div>

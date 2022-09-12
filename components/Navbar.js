@@ -1,15 +1,18 @@
 import Link from "next/link";
 import { AiOutlineShoppingCart } from "react-icons/ai";
+import {useStateValue} from "../StateProvider";
+
 function Navbar({ cartQty }) {
+  const [{ mode }, dispatch] = useStateValue();
   return (
-    <div className="container m-auto bg-white py-6 px-5 flex flex-row items-center">
+    <div className={`container m-auto ${mode === 'light' ? 'bg-white text-black' : 'bg-black text-white'} py-6 px-5 flex flex-row items-center`}>
       <Link href="/">
         <a>
-          <img src="/logo.png" alt="Wasatch Ski Company" />
+          {mode === 'light' ? <img src="/logo.png" alt="Wasatch Ski Company" /> : <img src="/white-logo.png" alt="Wasatch Ski Company" />}
         </a>
       </Link>
       <div className="flex-1 flex flex-row justify-end space-x-7 items-center">
-        <div className="flex flex-row space-x-5 font-light text-normal text-black">
+        <div className={`flex flex-row space-x-5 font-light text-normal ${mode === 'light' ? 'text-black' : 'text-white'}`}>
           <Link href="/">
             <a>Home</a>
           </Link>
