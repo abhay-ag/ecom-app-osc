@@ -25,7 +25,7 @@ function Navbar({ cartQty }) {
             )}
           </a>
         </Link>
-        <div className="flex-1 flex flex-col  md:flex-row justify-end space-y-3 mt-3 md:space-x-7 items-center">
+        <div className="flex-1 flex flex-col md:flex-row justify-end space-y-3 md:space-y-0 mt-3 md:space-x-7 items-center">
           <div
             className={`flex flex-row space-x-5 font-light text-normal ${
               mode === "light" ? "text-black" : "text-white"
