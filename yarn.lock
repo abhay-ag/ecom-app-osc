@@ -1757,6 +1757,11 @@ side-channel@^1.0.4:
     get-intrinsic "^1.0.2"
     object-inspect "^1.9.0"
 
+simple-currency-format@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/simple-currency-format/-/simple-currency-format-2.3.0.tgz#bace11f62c59825ec8ac4890616412b8f47e9c2f"
+  integrity sha512-NIKyc4gwSZ6kl22sUr51paMMkbPKg14/YqMrrJLs/w9YLYUjEXKU9AbSi0q2X/TAazKAlKenUBdMK7VHXossYw==
+
 slash@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
